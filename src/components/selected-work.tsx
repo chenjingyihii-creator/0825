@@ -241,9 +241,9 @@ function CoverStack({
               : layout === "fan3"
                 ? {
                     background: item.accent,
-                    opacity: 0.6,
+                    opacity: 0.1,
                     left: "56%",
-                    top: "64%",
+                    top: "42%",
                     width: "28%",
                     height: "38%",
                     transform: "rotate(16deg)",
@@ -255,13 +255,27 @@ function CoverStack({
                   }
           }
         />
+        {layout === "fan3" ? (
+          <span
+            className="cover-plate"
+            style={{
+              background: item.accent,
+              opacity: 0.3,
+              left: "18%",
+              top: "4%",
+              width: "32%",
+              height: "30%",
+              transform: "rotate(-11deg)",
+            }}
+          />
+        ) : null}
         {layout === "fan4" ? (
           <>
             <span
               className="cover-plate"
               style={{
                 background: item.accent,
-                opacity: 0.42,
+                opacity: 0.1,
                 left: "20%",
                 top: "calc(4% - 34px)",
                 width: "33%",
@@ -274,7 +288,7 @@ function CoverStack({
               className="cover-plate"
               style={{
                 background: item.accent,
-                opacity: 0.38,
+                opacity: 0.2,
                 left: "50%",
                 top: "calc(2% - 34px)",
                 width: "33%",

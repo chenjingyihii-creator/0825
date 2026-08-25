@@ -359,13 +359,13 @@ export function Hero() {
             delay="500ms"
             onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
             label="About Chen Jingyi"
-            className="hero-name-chip lg-chroma-d top-[calc(61%+8pt)] left-[calc(50%-min(170px,14%))] z-[9] h-[54px] w-[min(340px,28%)] rounded-full"
+            className="hero-name-chip lg-chroma-d top-[calc(61%+8pt)] left-[calc(50%-min(134px,11%))] z-[9] h-[42px] w-[min(268px,22%)] rounded-full"
           >
             <span className="hero-name-lime-leak" aria-hidden />
-            <div className="relative z-[2] flex h-full w-full items-center justify-center gap-3 px-6">
-              <span className="text-[13px] tracking-wide text-white/92">陈静怡</span>
+            <div className="relative z-[2] flex h-full w-full items-center justify-center gap-2 px-3">
+              <span className="text-[12px] tracking-wide text-white/92">陈静怡</span>
               <span className="hero-name-years">7 years</span>
-              <span className="text-[12px] tracking-[0.08em] text-white/55">Chen Jingyi</span>
+              <span className="text-[11px] tracking-[0.06em] text-white/55">Chen Jingyi</span>
             </div>
           </GlassBlob>
 
@@ -408,24 +408,24 @@ export function Hero() {
           >
             2019 — 2026
           </p>
-        </div>
 
-        <button
-          type="button"
-          onClick={() => openWork("mintegral-overseas")}
-          className="hero-cta hero-late group absolute bottom-[28px] left-1/2 z-20 flex h-[54px] w-[min(500px,52%)] -translate-x-1/2 items-center justify-between px-7"
-          style={{ animationDelay: "880ms" }}
-        >
-          <span className="flex items-center gap-3 text-[12px] tracking-[0.22em] text-white/88 uppercase">
-            <Plus className="size-3.5 text-primary" />
-            Selected work
-          </span>
-          <span className="cta-split" />
-          <span className="flex items-center gap-2 text-[12px] tracking-[0.22em] text-white/60 uppercase group-hover:text-white">
-            Explore
-            <span className="text-primary transition-colors group-hover:text-accent">↓</span>
-          </span>
-        </button>
+          <button
+            type="button"
+            onClick={() => openWork("mintegral-overseas")}
+            className="hero-cta hero-late group absolute bottom-[1%] left-1/2 z-20 flex h-[48px] w-[min(440px,46%)] -translate-x-1/2 items-center justify-between px-6"
+            style={{ animationDelay: "880ms" }}
+          >
+            <span className="flex items-center gap-3 text-[12px] tracking-[0.22em] text-white/88 uppercase">
+              <Plus className="size-3.5 text-primary" />
+              Selected work
+            </span>
+            <span className="cta-split" />
+            <span className="flex items-center gap-2 text-[12px] tracking-[0.22em] text-white/60 uppercase group-hover:text-white">
+              Explore
+              <span className="text-primary transition-colors group-hover:text-accent">↓</span>
+            </span>
+          </button>
+        </div>
       </div>
 
       {/* Mobile — 3–4 primary slabs, no hover flip */}
