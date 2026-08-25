@@ -1,0 +1,26 @@
+.rb-masonry {
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+}
+.rb-masonry.is-compact {
+  margin-top: 0;
+}
+.rb-masonry-item {
+  position: absolute;
+  will-change: transform, width, height, opacity;
+  padding: 6px;
+  cursor: default;
+  top: 0;
+  left: 0;
+}
+.rb-masonry-item .item-img {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.45);
+}

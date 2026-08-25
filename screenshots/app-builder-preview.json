@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "陈静怡 · 视觉设计作品集",
+      "hasCanvas": false,
+      "bodyTextLen": 2228,
+      "bodyTextHash": "a75f50102388618c7a237f3eee928e5ecc0d898d2ee37acdf16262bca9df7e17",
+      "bodyTextPrefix": "CJ / 2026 ABOUT WORK PROCESS IMPACT CONTACT / GLOBAL 01 · LARGE ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "陈静怡 · 视觉设计作品集",
+      "hasCanvas": false,
+      "bodyTextLen": 1867,
+      "bodyTextHash": "c24bd7ab07094a60a829387a3df8aa78fceb5c8364120ea4e8071341f7729129",
+      "bodyTextPrefix": "CJ CONTACT / VISUAL DESIGN · AI-ENABLED 2019 — 2026 PORTFOLIO 陈静",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
